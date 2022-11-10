@@ -334,7 +334,7 @@ display: flex;
 height: 100vh;
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 333px) {
   .halves {
     -webkit-box-orient: vertical;
             box-orient: vertical;
@@ -360,7 +360,7 @@ min-height: 350px;
   }
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 333px) {
   .half {
     min-height: 350px;
 	height: auto;
@@ -375,7 +375,7 @@ min-height: 350px;
 background: none;
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 333px) {
   .half-first {
     background: #fff;
   }
@@ -386,7 +386,7 @@ position: relative;
 margin: 0 0 0 -100%;
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 333px) {
   .half-second-pull {
     margin: 0;
   }
@@ -3833,7 +3833,7 @@ background: #fff;
 background: #000;
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 333px) {
   .half-second-pull {
 	background: #111; 
   }
