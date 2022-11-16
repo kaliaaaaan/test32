@@ -4259,3 +4259,34 @@ height: 25px;
 .hreftel:hover {
   color: rgb(255, 209, 220);
 }
+
+.fa-brands
+{
+  color: #ffd1dc
+}
+
+.fa-telegram:hover
+{
+  color:#0088cc
+}
+
+.fa-vk:hover 
+{
+  color:#0077FF
+}
+
+.fa-square-instagram:hover
+{
+	color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;    
+	background-image: url('/img/other/instlogo.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fa-square-whatsapp:hover 
+{
+  color: #25D366
+}
