@@ -1772,7 +1772,7 @@ height: 100vh;
 overflow: hidden;
 top: 0;
 left: -100%;
-background: rgba(0, 0, 0, .7);
+background: rgba(255, 209, 220, .7);
 -webkit-transition: all .8s ease-in-out;
    -moz-transition: all .8s ease-in-out;
     -ms-transition: all .8s ease-in-out;
@@ -1816,7 +1816,7 @@ height: 100vh;
 overflow: hidden;
 top: 0;
 right: -100%;
-background: rgba(0, 0, 0, .7);
+background: rgba(255, 209, 220, 0.7);
 -webkit-transition: all .8s ease-in-out;
    -moz-transition: all .8s ease-in-out;
     -ms-transition: all .8s ease-in-out;
@@ -1855,7 +1855,7 @@ filter: alpha(opacity=100);
 
 .panel-from-left {
 position: absolute;
-width: 26%;
+width: 50%;
 height: 100vh;
 overflow-x: hidden;
 overflow-y: auto;
@@ -1893,7 +1893,7 @@ left: 0;
 
 .panel-from-right {
 position: absolute;
-width: 26%;
+width: 40%;
 height: 100vh;
 overflow-x: hidden;
 overflow-y: auto;
@@ -4277,13 +4277,13 @@ height: 25px;
 
 .fa-square-instagram:hover
 {
-	color: transparent;    
-	-webkit-background-clip: text;
-	background-clip: text;    
-	background-image: url('/img/other/instlogo.jpg');
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: transparent;
+  background-clip: text;
 }
 
 .fa-square-whatsapp:hover 
